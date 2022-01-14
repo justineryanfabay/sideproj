@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unlink a Tweet</title>
+</head>
+<body>
+	<p>Enter text: <input id="tweet" onkeyup="document.getElementById ('result').innerHTML='<br />'+this.value.replace(/([@#\.])/ig, '$1&#8203;');" type="text"> <span id="result" style="background:lightyellow"></span></p>
+</body>
+</html>
